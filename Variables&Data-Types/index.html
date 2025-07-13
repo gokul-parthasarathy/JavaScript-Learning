@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables & Data Types</title>
+    <link rel="stylesheet" href="styles.css">   
+    <script src="./sripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Variables & Data Types</h1>
+    </header>
+    <main>
+        <section id="variables">
+            <h2>Variables</h2>
+            <p>Variables are used to store data values. In JavaScript, you can declare a variable using the keywords <code>var</code>, <code>let</code>, or <code>const</code>.</p>
+            <ul>
+                <li><strong>var:</strong> Function-scoped or globally scoped.</li>
+                <li><strong>let:</strong> Block-scoped.</li>
+                <li><strong>const:</strong> Block-scoped and cannot be reassigned.</li>
+            </ul>
+        </section>
+
+        <section id="data-types">
+            <h2>Data Types</h2>
+            <p>JavaScript has several data types:</p>
+            <ul>
+                <li><strong>String:</strong> Represents text.</li>
+                <li><strong>Number:</strong> Represents numeric values.</li>
+                <li><strong>Boolean:</strong> Represents true or false values.</li>
+                <li><strong>Object:</strong> A collection of key-value pairs.</li>
+                <li><strong>Array:</strong> An ordered list of values.</li>
+                <li><strong>null:</strong> Represents an intentional absence of any value.</li>
+                <li><strong>undefined:</strong> A variable that has been declared but not assigned a value.</li>
+            </ul>
+        </section>
+
+        <section id="examples">
+            <h2>Examples</h2>
+            <pre><code>
+// Declaring variables
+let name = "John"; // String    
+let age = 30; // Number
+const isStudent = true; // Boolean
+let hobbies = ["reading", "gaming", "coding"]; // Array
+let person = { firstName: "Jane", lastName: "Doe" }; // Object
+let emptyValue = null; // Null
+let notAssigned; // Undefined
+</code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Variables & Data Types Tutorial</p>
+    </footer>
+</body>
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Variables & Data Types page loaded.");
+});
+</script>
+</body>
+</html>
+<!DOCTYPE html>
